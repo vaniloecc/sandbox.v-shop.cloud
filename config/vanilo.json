@@ -1,0 +1,36 @@
+{
+    "foundation": {
+        "currency": {
+            "code": "EUR",
+            "format": "%1$g %2$s",
+            "sign": "€"
+        },
+        "image": {
+            "variants": {
+                "thumbnail" : {
+                    "width"  : 250,
+                    "height" : 250,
+                    "fit"    : "fill"
+                },
+                "cart" : {
+                    "width"  : 120,
+                    "height" : 90,
+                    "fit"    : "fill"
+                },
+                "medium" : {
+                    "width"  : 1024,
+                    "height" : 576,
+                    "fit"    : "fill"
+                }
+            }
+        }
+    },
+    "order": {
+        "number": {
+            "generator": "time_hash",
+            "time_hash": {
+                "uppercase": true
+            }
+        }
+    }
+}
