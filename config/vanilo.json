@@ -32,5 +32,12 @@
                 "uppercase": true
             }
         }
+    },
+    "cloud": {
+        "home": {
+            "inject": {
+                "products": "product.latest(4)"
+            }
+        }
     }
 }

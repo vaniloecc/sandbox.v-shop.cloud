@@ -1,6 +1,6 @@
 @extends('storefront::layouts.default')
 
-@section('title', 'About %%shop_name%%')
+@section('title', 'About Vanilo Cloud Sandbox')
 
 @section('content')
     <h1>Info Pages</h1>

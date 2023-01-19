@@ -1,12 +1,10 @@
-# %%shop_name%% Shop Template
+# Vanilo Cloud Sandbox Shop
 
-Welcome to %%shop_name%%!
-
-This Documentation is written for software developers building ecommerce sites with Vanilo Cloud.
+This is the Sandbox repository for [Vanilo Cloud Sandbox](https://sandbox.v-shop.cloud).
 
 ## Repository Contents
 
-The repository has files and folder that have the same [structure](https://laravel.com/docs/8.x/structure)
+The repository has files and folder that have the same [structure](https://laravel.com/docs/9.x/structure)
 and role as a Laravel application. It only contains a small subset of Laravel per-se as the code
 is being run and managed by Vanilo Cloud.   
 

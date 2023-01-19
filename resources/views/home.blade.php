@@ -1,9 +1,9 @@
 @extends('storefront::layouts.default')
 
-@section('title', '%%shop_name%%')
+@section('title', 'Vanilo Cloud Sandbox')
 
 @section('content')
-    <h1>%%shop_name%%</h1>
+    <h1>Vanilo Cloud Sandbox</h1>
 
     <p>Welcome to your shop. This is a dead simple skeleton that demonstrates the very basics
         of building shops and sites with Vanilo Cloud.

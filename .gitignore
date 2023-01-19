@@ -1,0 +1,16 @@
+# Composer specific
+/vendor/
+
+# Laravel & PHP specific
+public/storage
+.env
+.env.testing
+.phpunit.result.cache
+
+# PHPStorm specific
+.idea/
+
+# Frontend tooling specific
+node_modules/
+yarn-error.log
+npm-debug.log
