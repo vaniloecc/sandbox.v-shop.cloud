@@ -7,7 +7,7 @@
         <table class="table cart-table">
             <tbody>
             @foreach(Cart::getItems() as $item)
-                @include('storefront::cart._item')
+                @include('shop::cart._item')
             @endforeach
             <tr>
                 <td colspan="6">

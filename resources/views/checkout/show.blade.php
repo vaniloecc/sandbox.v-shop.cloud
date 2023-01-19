@@ -1,4 +1,4 @@
-@extends('storefront::layouts.default')
+@extends('shop::layouts.default')
 
 @section('title', 'Order Details')
 
@@ -17,7 +17,7 @@
             @endunless
 
             @if ($checkout)
-                @include('storefront::checkout._form')
+                @include('shop::checkout._form')
             @endif
         </div>
     </div>
@@ -27,7 +27,7 @@
             <h2>Order Summary</h2>
         </div>
         <div class="card-body">
-            @include('storefront::cart._summary_table')
+            @include('shop::cart._summary_table')
         </div>
     </div>
 @endsection

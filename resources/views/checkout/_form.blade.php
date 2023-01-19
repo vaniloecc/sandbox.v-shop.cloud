@@ -1,9 +1,9 @@
 <form id="checkout" class="form" action="{{ route('shop.checkout.submit') }}" method="post">
     @csrf
 
-    @include('storefront::checkout._base_data')
+    @include('shop::checkout._base_data')
 
-    @include('storefront::checkout._billpayer', ['billpayer' => $checkout->getBillPayer()])
+    @include('shop::checkout._billpayer', ['billpayer' => $checkout->getBillPayer()])
 
     <div class="mb-4">
         <input type="hidden" name="ship_to_billing_address" value="0" />
@@ -13,7 +13,7 @@
         </div>
     </div>
 
-    @include('storefront::checkout._shipping_address', ['address' => $checkout->getShippingAddress()])
+    @include('shop::checkout._shipping_address', ['address' => $checkout->getShippingAddress()])
 
     <hr>
 

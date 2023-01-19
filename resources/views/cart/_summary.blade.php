@@ -3,7 +3,7 @@
         <h2>Order Summary</h2>
     </div>
     <div class="card-body">
-        @include('storefront::cart._summary_table')
+        @include('shop::cart._summary_table')
 
         <hr>
 

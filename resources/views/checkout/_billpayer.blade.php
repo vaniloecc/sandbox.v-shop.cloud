@@ -54,5 +54,5 @@
     </div>
 </div>
 
-@include('storefront::checkout._billing_address', ['address' => $billpayer->getBillingAddress()])
+@include('shop::checkout._billing_address', ['address' => $billpayer->getBillingAddress()])
 

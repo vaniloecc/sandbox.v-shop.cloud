@@ -1,4 +1,4 @@
-@extends('storefront::layouts.default')
+@extends('shop::layouts.default')
 
 @section('title', 'Cart')
 
@@ -11,11 +11,11 @@
         @endif
     </h1>
     @if(Cart::isEmpty())
-        @include('storefront::cart._empty')
+        @include('shop::cart._empty')
     @else
-        @include('storefront::cart._items')
+        @include('shop::cart._items')
 
-        @include('storefront::cart._summary')
+        @include('shop::cart._summary')
     @endif
 @endsection
 

@@ -1,4 +1,4 @@
-@extends('storefront::layouts.default')
+@extends('shop::layouts.default')
 
 @section('title', $product->title)
 
