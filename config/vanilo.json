@@ -39,5 +39,16 @@
                 "products": "product.latest(4)"
             }
         }
+    },
+    "features": {
+        "multi_channel": {
+            "is_enabled": true
+        },
+        "pricing": {
+            "is_enabled": true
+        },
+        "inventory": {
+            "is_enabled": true
+        }
     }
 }
